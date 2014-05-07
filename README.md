@@ -49,7 +49,7 @@ From: [Craft Docs](http://buildwithcraft.com/docs/multi-environment-configs)
 ## Staging Deployment
 
 #### 1. Spin up server on digital ocean
-- Spin up server from image `Final Craft Dev (minimal)`
+- Spin up server from image `Craft Staging Server`
 - In shell `ssh -p 11970 cosmic@SERVER_IP` (no password, just key auth)
 - Update server name by running `sudo nano /etc/nginx/sites-available/default` **sudo-er password is in 1Pass**
 - Once in [nano](http://mintaka.sdsu.edu/reu/nano.html) update server_name option to reflect your servers IP or domain
