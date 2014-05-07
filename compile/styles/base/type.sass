@@ -1,0 +1,37 @@
+html
+  font-size: 100%
+
+body
+  font-family: "Helvetica Neue", sans-serif
+  font-size: 16px
+  line-height: 1.35
+
+p + p, p + ul, p + ol, ul + p, ol + p
+  margin-top: 1.5em
+
+ol
+  padding-left: 1.5em
+  list-style-type: decimal
+
+// Custom bullet symbol and color
+ul li
+  margin-bottom: .75em
+  padding-left: 1.5em
+  position: relative
+  &:before
+    color: red
+    content: '\2022'
+    display: block
+    font-size: 22px
+    position: absolute
+    left: .2em
+    top: -4px
+    width: 1em
+    max-height: 1em
+    vertical-align: top
+
+strong
+  font-weight: 600
+
+em
+  font-style: italic

@@ -1,0 +1,48 @@
+// Label Reset
+label
+  color: #555
+  font-size: 12px
+
+// Input Reset
+input, textarea
+  background: none
+  border-radius: 0
+  color: #222
+  -webkit-appearance: none
+  display: block
+  border: none
+  font-size: 18px
+  padding: 0
+  margin: 0
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="password"], textarea
+  background-color: transparent
+  border: 1px solid #000
+  padding: 8px 6px
+  transition: 100ms all ease-out
+  width: 100%
+  &:focus
+    background-color: transparentize(#00f,.95)
+    border: 1px solid transparentize(#00f,.75)
+    color: #333
+    outline: none
+
+// Fix for placeholder colors
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder
+  color: #222
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder
+  color: #222
+
+input:-moz-placeholder, textarea:-moz-placeholder
+  color: #222
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder
+  color: #343434
+
+input:focus::-ms-input-placeholder, textarea:focus::-ms-input-placeholder
+  color: #343434
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder
+  color: #343434
+
