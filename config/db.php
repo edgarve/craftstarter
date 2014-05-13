@@ -24,11 +24,11 @@ return array(
   ),
 
   // Local ENV
-  'YOUR_IP' => array(
+  'cosmic.dev' => array(
     'server'   => 'localhost',
-    'user'     => 'MYSQL_USER',
-    'password' => 'MYSQL_PASS',
-    'database' => 'DB_NAME'
+    'user'     => 'root',
+    'password' => 'root',
+    'database' => 'craft_started'
   ),
 
   // Staging ENV

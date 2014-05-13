@@ -16,13 +16,13 @@ return array(
   ),
 
   // Local ENV
-  '10.50.1.100' => array(
+  'cosmic.dev' => array(
     'devMode' => true,
     'environmentVariables' => array(
       // Ex: http://YOUR_IP/cosmic-craft/www
-      'siteUrl'        => 'YOUR_SITE_URL',
+      'siteUrl'        => 'http://cosmic.dev/craft-portfolio/www',
       // Ex: /Users/billcolumbia/Projects/cosmic-craft/www
-      'fileSystemPath' => 'YOUR_PATH'
+      'fileSystemPath' => '/Users/edgarvargas/Documents/Local\ Dev/craft-portfolio'
     )
   ),
 
