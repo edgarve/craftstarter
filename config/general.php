@@ -20,9 +20,9 @@ return array(
     'devMode' => true,
     'environmentVariables' => array(
       // Ex: http://YOUR_IP/cosmic-craft/www
-      'siteUrl'        => 'http://cosmic.dev/craft-portfolio/www',
+      'siteUrl'        => 'http://cosmic.dev/craftstarter/www',
       // Ex: /Users/billcolumbia/Projects/cosmic-craft/www
-      'fileSystemPath' => '/Users/edgarvargas/Documents/Local\ Dev/craft-portfolio'
+      'fileSystemPath' => '/Users/edgarvargas/Documents/Local\ Dev/craftstarter'
     )
   ),
 
